@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.converter-body{
+    width: 450px;
+    height: 150px;
+    background:aqua;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 2px 1px rgb(131, 241, 241);
+}
+.converter-title{
+    text-align: center;
+    margin: 13px 0px;
+}
+input{
+    height: 25px;
+}
+
+#input{
+    margin-left: 20px;
+    /* font-size: 10px; */
+    text-align: center;
+}
+#result{
+    /* margin-left: 20px; */
+    /* font-size: 10px; */
+    text-align: center;
+}
+
+#inputType , #resultType{
+    width: 166.66px;
+    margin-left: 25px;
+    font-size: 20px;
+    color:red;
+    background: #000;
+}
+#resultType{
+    margin-left: 25px;
+}
